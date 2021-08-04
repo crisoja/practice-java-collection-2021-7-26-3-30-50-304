@@ -14,7 +14,7 @@ public class StreamFilter {
                 .collect(Collectors.toList());
 
     }
-    
+
     public List<String> filterEndWithS(List<String> words) {
         return words
                 .stream()
